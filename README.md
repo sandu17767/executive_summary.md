@@ -1,11 +1,10 @@
-```markdown
 # RFM Segmentation & Customer Lifetime Value Analysis
 
 **Dataset:** UCI Online Retail · UK Market · 5,350 Customers · £14.7M Revenue · Dec 2010 – Dec 2011
 
 ---
 
-## The Business Question
+## 🎯 The Business Question
 
 > *Which customers are worth fighting for — and what should the business actually do about it?*
 
@@ -17,7 +16,7 @@ Using RFM segmentation and Customer Lifetime Value modelling, I classified 5,350
 
 ---
 
-## Dataset & Methodology
+## ⚙️ Dataset & Methodology
 
 **Tool:** BigQuery (Standard SQL)
 
@@ -34,7 +33,7 @@ Using RFM segmentation and Customer Lifetime Value modelling, I classified 5,350
 
 ---
 
-## Segment Results
+## 📊 Segment Results
 
 | Segment | Customers | Revenue | % of Revenue | Avg Customer Value |
 |---|---|---|---|---|
@@ -48,7 +47,7 @@ Using RFM segmentation and Customer Lifetime Value modelling, I classified 5,350
 
 ---
 
-## Section 1 — Business Situation
+## 📌 Section 1 — Business Situation
 
 The data tells a story that should concern any growth-focused business: **this company's revenue is structurally fragile.**
 
@@ -67,9 +66,9 @@ The At Risk and Can't Lose Them segments together represent customers who were p
 
 ---
 
-## Section 2 — Key Findings
+## 🔍 Section 2 — Key Findings
 
-### Finding 1 — The business is existentially dependent on Champions
+### 🏆 Finding 1 — The business is existentially dependent on Champions
 
 - **1,194 customers → £9.8M → 66.8% of all revenue**
 - Average Champion spends **£8,238/year** and purchases frequently
@@ -79,7 +78,7 @@ The At Risk and Can't Lose Them segments together represent customers who were p
 
 ---
 
-### Finding 2 — £2.38M is at risk right now, and these are Champion-quality buyers
+### ⚠️ Finding 2 — £2.38M is at risk right now, and these are Champion-quality buyers
 
 - At Risk customers (538) have an **average AOV of £420** — identical to Champions (£421)
 - They have not downgraded. They have not complained. They have simply stopped buying.
@@ -90,7 +89,7 @@ The At Risk and Can't Lose Them segments together represent customers who were p
 
 ---
 
-### Finding 3 — 47% of Lost customers were never going to stay
+### 🔎 Finding 3 — 47% of Lost customers were never going to stay
 
 - **1,495 customers classified as Lost** — the largest segment by count
 - **47% placed only a single order** in the entire 12-month period
@@ -101,7 +100,7 @@ The At Risk and Can't Lose Them segments together represent customers who were p
 
 ---
 
-### Finding 4 — 876 warm, reachable customers are sitting in the middle
+### 🌱 Finding 4 — 876 warm, reachable customers are sitting in the middle
 
 - Potential Loyalists purchased recently — **average recency: 67 days**
 - They know the brand, they've bought once, and they are still within reach
@@ -112,7 +111,7 @@ The At Risk and Can't Lose Them segments together represent customers who were p
 
 ---
 
-## Section 3 — Strategic Recommendations
+## 💡 Section 3 — Strategic Recommendations
 
 Segments are grouped into three commercial tiers: **protect**, **grow**, and **recover selectively.**
 
@@ -196,7 +195,7 @@ The honest commercial call: most of these customers were not retainable to begin
 
 ---
 
-## Section 4 — Model Limitations
+## ⚠️ Section 4 — Model Limitations
 
 ### Limitation 1 — Wholesale & B2B buyers are misclassified
 
@@ -227,7 +226,7 @@ A customer inactive for 5 months with a projected CLV of £20,000 may deliver **
 
 ---
 
-## Tools & Skills Demonstrated
+## 🛠️ Tools & Skills Demonstrated
 
 | Area | Approach |
 |---|---|
